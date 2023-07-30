@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>textos</title>
+  <style>
+    body{
+      /* font-family altera o nome da fonte */
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+      /* text-align center centraliza o texto */
+      text-align: center;
+    }
+    h2{
+      
+      text-align: end;
+    }
+    h3,h4{
+      color: blue;
+    }
+    p{
+      /* justify justifica */
+      text-align: justify;
+      /* line-height altera o espaçamento */
+      line-height: 28px;
+      /* font-size altera o tamanho da fonte */
+      font-size: 1rem;
+    }
+    abbr{
+      /* text-decoration faz com que a gente possa mudar a forma padrão de identificar aquela função do texto */
+      text-decoration: underline;
+    }
+    a{
+      text-decoration: none;
+      /* font-weight faz com que o peso da letra mude engrossando ou afinando a fonte */
+      font-weight: bold;
+    }
+    /* é possivel chamar tags individeualmente utilizando ou o id ou uma class  */
+    /* o #nome serve para identificar o id */
+    #button{
+      color:orange;
+    }
+    .texto_vermelho{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="texto_vermelho">Título principal</h1>
+
+  <!-- id serve para identificar uma tag só que só pode ser usada uma unica vez  -->
+  <a id="button" href="index.html">voltar</a>
+
+<!-- a class pode nomear mais de uma tag para stylizar -->
+  <h2 class="texto_vermelho">Título secundário</h2>
+
+<!-- é possivel estilizar de forma individual chamando a tag style -->
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo eos nihil at rerum non libero. Laborum voluptates minus optio accusamus aperiam aliquid. Nam voluptas sit minus minima laborum odit repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eum atque laboriosam mollitia, saepe accusantium sequi, corrupti enim sit harum omnis, obcaecati nihil ea repellat distinctio officia consequuntur esse temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quibusdam impedit sint obcaecati quidem fugit, ipsam mollitia nisi consequatur maiores aut quas possimus sunt saepe fuga et esse! Perferendis.</p>
+
+  <h3>Título secundário</h3>
+
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo eos nihil at rerum non libero. Laborum voluptates minus optio accusamus aperiam aliquid. Nam voluptas sit minus minima laborum odit repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eum atque laboriosam mollitia, saepe accusantium sequi, corrupti enim sit harum omnis, obcaecati nihil ea repellat distinctio officia consequuntur esse temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quibusdam impedit sint obcaecati quidem fugit, ipsam mollitia nisi consequatur maiores aut quas possimus sunt saepe fuga et esse! Perferendis.</p>
+  
+  <h4>Título secundário</h4>
+
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo eos nihil at rerum non libero. Laborum voluptates minus optio accusamus aperiam aliquid. Nam voluptas sit minus minima laborum odit repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eum atque laboriosam mollitia, saepe accusantium sequi, corrupti enim sit harum omnis, obcaecati nihil ea repellat distinctio officia consequuntur esse temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quibusdam impedit sint obcaecati quidem fugit, ipsam mollitia nisi consequatur maiores aut quas possimus sunt saepe fuga et esse! Perferendis.</p>
+
+  <!-- abbr é usado para implicitar ao significado de uma abreviação e o conteúdo é passado no parâmetro title -->
+
+  <p>Site desenvolvido por uma estudante do <abbr title="Instituto Federal de Tecnologia e Ciência da Bahia">IFBA</abbr></p>
+
+  <a href="www.google.com">www.google.com</a>
+  
+</body>
+</html>
