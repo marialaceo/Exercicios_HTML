@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    font-size: large;
+}
+
+
+a{
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    padding: 10px 5px;
+    background-color: rgb(31, 30, 30);
+    font-size: larger;
+    color:rgb(228, 226, 226) ;
+}
+
+p > a{
+    display: inline;
+}
+
+h1{
+    text-align: left;
+    padding: 40px 20px;
+    padding-bottom: 10px;
+    background-color: rgb(228, 226, 226);
+    font-size: 3.5rem;
+    font-weight: lighter;
+    color: rgb(31, 30, 30);
+}
+
+.right{
+    text-align: right;
+    padding: 30px 20px 30px 69px;
+    background-color: rgb(31, 30, 30);
+    color: rgb(228, 226, 226);
+}  
+
+.left{
+    text-align: left;
+    padding: 20px 69px 30px 20px;
+    background-color: rgb(228, 226, 226);
+    color: rgb(31, 30, 30);
+}
+
+.left2{
+    text-align: left;
+    padding: 30px 69px 30px 20px;
+    background-color: rgb(228, 226, 226);
+    color: rgb(31, 30, 30);
+}
+
+.rodape{
+    text-align: center;
+    padding: 16px;
+    background-color: rgb(31, 30, 30);
+    color:  rgb(228, 226, 226);
+}
+

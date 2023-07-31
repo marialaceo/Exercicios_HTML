@@ -1,0 +1,76 @@
+/* * - significa o estilo que dou para TODOS os elementos do meu html */
+*{
+  /* o box sizing: border-box me permite controlar o tamanho do margin e padding como eu quiser*/
+  box-sizing: border-box;
+  /* o margin ele é exatamente isso, uma margem externa que não pode ser colorida  */
+  margin: 0;
+  /* o padding ele é exatamente isso, a espaçamento interno */
+  padding: 0;
+}
+
+body {
+  background-color: #e7d7ec;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.perfil{
+  /* a função auto faz com que a responsividade se torne automática */
+  margin: 30px auto;
+  /* o display controla qual modelo de box eu quero, se é block ou inline ou os dois */
+  display:block;
+  /* width é largura de uma tag e height é a altura*/
+  width: 300px;
+}
+.links2 {
+  color: #CD5AED;
+  text-decoration: none;
+
+}
+
+.button{
+  color: #bc31e3;
+  background-color: #e3c7eb;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 10px;
+  display: inline-block;
+  /* border é a borda da tag, nela é possivel modificar o tamanho, estilo e cor respectivamente, diretamente, ela é a camada do meio*/
+  border: 2px solid #bc31e3;
+}
+
+h1 {
+  color: #e3c7eb;
+  text-align: center;
+  background-color: #CD5AED;
+  padding: 10px;
+}
+
+p {
+  text-align: justify;
+  color: #444;
+  margin: 10px 5px;
+  background-color: aqua;
+  padding: 20px;
+  
+}
+
+strong {
+  color: #CD5AED;
+}
+
+.links {
+  color: #bc31e3;
+  text-decoration: none;
+  display: block;
+  /* além de poder espassar as margens e os padding diretamente na mesma linha respeitando a ordem top, right, bottom, left, tbm é possivel fazer separadamente */
+  /* margin-top: 50px;
+  margin-right: 0; 
+  margin-bottom: 60px;
+  margin-left: 20px;
+  */
+  margin: 50px 5px;
+}
+
+abbr {
+  text-decoration: none;
+}
