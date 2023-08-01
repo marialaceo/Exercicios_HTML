@@ -1,0 +1,21 @@
+.section{
+    background-color: #222;
+}
+
+.section > div > p, .section > span > p{
+    background-color: yellow;
+    color: black;
+}
+
+.first{
+    background-color: #999;
+}
+
+.second{
+    background-color: #ccc;
+}
+
+div, span{
+    padding: 1.5rem;
+    color: black;
+}
