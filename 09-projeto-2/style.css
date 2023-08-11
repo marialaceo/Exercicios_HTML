@@ -7,13 +7,26 @@
     font-size: large;
 }
 
+#cafe{
+    max-height: 400px;
+    overflow: hidden;
+    /* não apague essa margem pode quebrar tudo */
+    margin-bottom: -8px;
+}
+
+.copo{ 
+    width: 100%;  
+}
+
+#cabecalho{
+    background-color: rgb(31, 30, 30);
+}
 
 a{
     text-decoration: none;
     text-align: left;
     display: block;
     padding: 10px 5px;
-    background-color: rgb(31, 30, 30);
     font-size: larger;
     color:rgb(228, 226, 226) ;
 }
